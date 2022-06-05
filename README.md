@@ -71,8 +71,4 @@ Write a comprehensive conclusion.
 - What were the biggest challenges
 
 # Follow Me On
-Add the link to your LinkedIn Profile
-
-# Appendix
-
-[Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+https://www.linkedin.com/in/yousef-elsayed-682864142/
