@@ -1,0 +1,8 @@
+2022-06-06 10:34:57,080 - INFO - Shutting down
+2022-06-06 10:34:57,180 - INFO - Waiting for application shutdown.
+2022-06-06 10:34:57,181 - INFO - Application shutdown complete.
+2022-06-06 10:34:57,181 - INFO - Finished server process [923]
+2022-06-06 10:34:57,182 - INFO - Closing the Kafka producer with 0 secs timeout.
+2022-06-06 10:34:57,182 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2022-06-06 10:34:57,182 - DEBUG - The Kafka producer has closed.
+2022-06-06 10:34:57,182 - DEBUG - Beginning shutdown of Kafka producer I/O thread, sending remaining records.

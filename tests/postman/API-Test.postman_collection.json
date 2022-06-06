@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "9f67ee92-9481-4831-9e62-3575765220bc",
+		"name": "API-Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21120768"
+	},
+	"item": [
+		{
+			"name": "POST Request (Correct Format)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"InvoiceNo\": 536365,\r\n    \"StockCode\": \"85123A\",\r\n    \"Description\": \"WHITE HANGING HEART T-LIGHT HOLDER\",\r\n    \"Quantity\": 6,\r\n    \"InvoiceDate\": \"12\\/1\\/2010 8:26\",\r\n    \"UnitPrice\": 2.55,\r\n    \"CustomerID\": 17850.0,\r\n    \"Country\": \"United Kingdom\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/invoices",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"invoices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Request (Wrong Format)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"InvoiceNo\": 536365,\r\n    \"StockCode\": \"85123A\",\r\n    \"Description\": \"WHITE HANGING HEART T-LIGHT HOLDER\",\r\n    \"Quantity\": 6,\r\n    \"InvoiceDate\": \"8:26 12\\/1\\/2010\",\r\n    \"UnitPrice\": 2.55,\r\n    \"CustomerID\": 17850.0,\r\n    \"Country\": \"United Kingdom\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/invoices",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"invoices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST (Empty JSON)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/invoices",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"invoices"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
