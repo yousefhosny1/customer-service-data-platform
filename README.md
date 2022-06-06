@@ -1,5 +1,8 @@
 # Customer Service Officer Data Platform
-Add a catchy title to your project. Something that people immediately know what you are doing
+Efficient data platform that processes and stores streaming data (customer transactions) with query streamlit app as a frontend to allow customer officers query real-time data and handle cases without bottlenecking 
+
+### Data Pipeline
+
 
 # Introduction & Goals
 - Introduce your project to the reader
