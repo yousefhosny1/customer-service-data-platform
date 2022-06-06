@@ -2,7 +2,7 @@
 Efficient data platform that processes and stores streaming data (customer transactions) with query streamlit app as a frontend to allow customer officers query real-time data and handle cases without bottlenecking 
 
 ### Data Pipeline
-[![data-pipeline.png](https://freeimage.host/i/h3BbrQ)]
+![data-pipeline.png](https://iili.io/h3BbrQ.jpg)
 
 # Introduction & Goals
 - Introduce your project to the reader
