@@ -7,7 +7,7 @@ end = 100
 ENDPOINT = 'http://localhost:80'
 
 
-while i < end:
+while i <= end:
     line = linecache.getline('data/json-lines.txt', i)
     data_line = json.loads(line)
     print(data_line)
